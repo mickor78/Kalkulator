@@ -35,4 +35,20 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    @org.junit.jupiter.api.Test
+    void add() {
+        //given
+        //when
+        double result=App.add(2,2);
+        //then
+        assertEquals(6, result);
+    }
+
+    @org.junit.jupiter.api.Test
+    void delta() {
+        //given
+        //when
+        //then
+    }
 }
