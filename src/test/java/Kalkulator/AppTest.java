@@ -37,10 +37,10 @@ public class AppTest
     }
 
     @org.junit.jupiter.api.Test
-    void add() {
+    void addTwo() {
         //given
         //when
-        double result=App.add(2,2);
+        double result=App.addTwo(2,2);
         //then
         assertEquals(6, result);
     }
@@ -49,6 +49,8 @@ public class AppTest
     void delta() {
         //given
         //when
+        double delta = App.delta(2, 2, 2);
         //then
+        assertEquals(-12,delta);
     }
 }
